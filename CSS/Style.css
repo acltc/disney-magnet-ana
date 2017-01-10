@@ -8,6 +8,7 @@ p {
 body {
 	background: #4CB9FF;
 }
+
 h1 {
 	color: #004e7f;
 	font-family: 'Audiowide', cursive;
@@ -23,7 +24,7 @@ a {
 li {
 	font-size:18px;
 		font-family: 'Titillium Web', sans-serif;
-	
+
 }
 
 img {
@@ -62,7 +63,7 @@ img {
 #wordcloud {
 	height: 400px;
 	width: 300px;
-} 
+}
 
 .answers {
 	display: none;
