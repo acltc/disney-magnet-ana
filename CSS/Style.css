@@ -1,0 +1,91 @@
+p {
+	font-size:18px;
+		font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+body {
+	background: #4CB9FF;
+}
+h1 {
+	color: #004e7f;
+	font-family: 'Audiowide', cursive;
+	clear: both;
+}
+
+a {
+	font-family: 'Titillium Web', sans-serif;
+ 	font-size:22px;
+ 	margin: 9;
+ 	padding: 9;
+}
+li {
+	font-size:18px;
+		font-family: 'Titillium Web', sans-serif;
+	
+}
+
+img {
+	height: 300px;
+	width: auto;
+}
+
+#navbar {
+	list-style-type: none;
+	overflow:hidden;
+	background-color: #ffffff;
+	margin: 9;
+    padding:9;
+
+
+}
+
+#navbar li {
+
+	float: left;
+	 }
+
+
+#navbar li a
+	{
+		display:block;
+		text-align: center;
+		color:#004e7f;
+		text-decoration: none;
+		padding: 15px 20px 15px 20px;
+	}
+#answer{
+	display:none;
+}
+
+#wordcloud {
+	height: 400px;
+	width: 300px;
+} 
+
+.answers {
+	display: none;
+}
+
+.questions {
+	color: #004e7f;
+	font-family: 'Audiowide', cursive;
+	clear: both;
+}
+
+.example {
+	float: left;
+	margin-right: 15px;
+}
+
+.picture {
+	float: left;
+	margin-right: 25px;
+	width: 300px;
+
+}
+.credits {
+	font-size:10px;
+		font-family: 'Titillium Web', sans-serif;
+}

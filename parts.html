@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Gaming Design For Kids</title>
+		<link rel="stylesheet" type="text/css" href="css/Style.css">
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+	</head>
+	
+
+	<body>
+		<ul id="navbar">
+  <li><a href="Gaming.html">Home</a></li>
+  <li><a href="parts.html">Parts of a Game</a></li>
+  <li><a href="examples.html">Examples of Student Games</a></li>
+  <li><a href="Teach.html">Why teach game design</a></li>
+   
+
+ 
+</ul>
+
+			<h1>What are the parts of Game?</h1>
+			<p>
+				Games are built with parts. You don't just say something and expect the game to build itself.
+				The five most inportant elements of a game are...(click to titles to learn more)				<ul>	
+					<li id="space" class="questions">Space</li>
+					<div id="spaceAnswer" class="answers" > <div> <p> Where does your game take place?  In a dungeon?  In Space?  In a forest?  This space is the setting for all the action in your game.  It is the first thing you players will notice, and defines the look and feel of the game.  The space you choose will help you decide what kinds of characters might live there, what rules the characters will need to follow, and what the goal of the game will be.</p> <img src="Images/Edge.gif">  <img src="Images/Absolver.gif"> <img src="Images/Tomb.gif"></div>
+						</div>
+
+					<li id="Components" class="questions">Components</li>
+					<div id="componentsAnswer" class="answers" > <div> <p> Every part of your game that you can see or hear is a component, from your player avatar and enemies, to your landscape, buildings, weapons, and other items in the game.  Music and sound effects are also important components.  The components are the first thing about your game that players will notice, and really create the look, feel, mood, and tone of the game. </p> <img src="Images/minecraft.gif">  <img src="Images/inventor.gif"> <img src="Images/mario1.gif"></div>
+						</div>
+
+					<li id ="Goals" class="questions">Goals </li>
+					<div id="goalsAnswer" class="answers" > <div> <p> Almost every game has an ultimate goal, and when you reach it, you win! But there are also sub-goals, such as completing levels or obtaining certain items.  These goals are often what motivate the player to keep playing.  But if you make your goals too hard, or too easy, the game will not be as fun.  </p> <img src="Images/pacman.gif">  <img src="Images/mario.gif"> </div>
+						</div>
+
+					<li id="Mechanics" class="questions">Mechanics</li>
+					<div id="mechanicsAnswer" class="answers" > <div> <p>  The mechanics of the game are the things that the player does - you can think of them as the "verbs" of the game.  Does the player have to jump?  Does the player have to hide?  Does the player have to battle, race, or avoid enemies? These are the mechanics of the game.</p> <img src="Images/hit.gif">  <img src="Images/donkeykong.gif"> </div>
+						</div>
+
+					<li id="Rules" class="questions">Rules</li>
+					<div id="rulesAnswer" class="answers" > <div> <p>  Every game has rules, just like the world has rules, such as gravity!  In fact, gravity is a pretty common rule in games!  </p> <img src="Images/flappy.gif">  <img src="Images/nba2k.gif"> </div>
+						</div>
+
+				</ul>
+			</p>
+
+
+
+
+
+
+<script type="text/javascript">
+$("#space").click(function(){
+	$("#spaceAnswer").slideDown();
+	$("#componentsAnswer").slideUp();
+	$("#goalsAnswer").slideUp();
+	$("#mechanicsAnswer").slideUp();
+	$("#rulesAnswer").slideUp();
+	}); 
+
+$("#Components").click(function(){
+	$("#componentsAnswer").slideDown();
+	$("#spaceAnswer").slideUp();
+	$("#goalsAnswer").slideUp();
+	$("#mechanicsAnswer").slideUp();
+	$("#rulesAnswer").slideUp();
+	}); 
+
+$("#Goals").click(function(){
+	$("#componentsAnswer").slideUp();
+	$("#spaceAnswer").slideUp();
+	$("#goalsAnswer").slideDown();
+	$("#mechanicsAnswer").slideUp();
+	$("#rulesAnswer").slideUp();
+	});
+
+
+$("#Mechanics").click(function(){
+	$("#componentsAnswer").slideUp();
+	$("#spaceAnswer").slideUp();
+	$("#goalsAnswer").slideUp();
+	$("#mechanicsAnswer").slideDown();
+	$("#rulesAnswer").slideUp();
+	});
+
+
+$("#Rules").click(function(){
+	$("#componentsAnswer").slideUp();
+	$("#spaceAnswer").slideUp();
+	$("#goalsAnswer").slideUp();
+	$("#mechanicsAnswer").slideUp();
+	$("#rulesAnswer").slideDown();
+	});
+
+
+					</script>
+
+					</body>
+					</html>
+					
+
